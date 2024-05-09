@@ -1,8 +1,10 @@
 package com.entities;
 
-import java.sql.Date;
+
+import java.util.Date;
 import java.util.Random;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -14,6 +16,7 @@ public class Note {
 	@Id
 	private int id;
 	private String title;
+	@Column(length = 1500)
 	private String content;
 	private Date date;
 	
@@ -54,5 +57,11 @@ public class Note {
 	public void setDate(Date date) {
 		this.date = date;
 	}
+
+	@Override
+	public String toString() {
+		return "Note [id=" + id + ", title=" + title + ", content=" + content + ", date=" + date + "]";
+	}
+	
 	
 }
