@@ -4,7 +4,7 @@ Note Taking Application:
 This README file provides an overview of a note-taking project built using Java, JSP, Hibernate, and Servlets, with MySQL as the database.
 
 Project Overview:
-This project aims to create a web-based note-taking application where users can register, log in, and create, edit, delete, and view their notes. The application is built using Java technologies such as JSP (JavaServer Pages), Hibernate for ORM (Object-Relational Mapping), Servlets for handling HTTP requests, and MySQL for the database management system.
+This project aims to create a web-based note-taking application where users can create, edit, delete, and view their notes. The application is built using Java technologies such as JSP (JavaServer Pages), Hibernate for ORM (Object-Relational Mapping), Servlets for handling HTTP requests, and MySQL for the database management system.
 
 
 Features:  
